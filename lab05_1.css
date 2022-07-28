@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html{
+  background-image: url("0.png");
+  background-repeat: repeat-y;
+  background-position: top;
+  background-size: 900px;
+
+}
+.six{
+padding-left: 400px;
+  position: fixed;
+top: 125px;
+}
+.fife{
+padding-left: 400px;
+  position:fixed;
+  top: 200px;
+}
+.three{
+   padding-left: 740px;
+   position: fixed;
+   top: 120px;
+ }
+.fo{
+  padding-left: 850px;
+  position: fixed;
+  top: 300px;
+}
+.two{
+  padding-left: 930px;
+  position: fixed;
+  top: 120px;
+}
+.one{
+  padding-left: 200px;
+  position: fixed;
+  top: 300px;
+}
+
+
+
+
+
+
+

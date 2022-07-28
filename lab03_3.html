@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Частина 3</title>
+</head>
+<body>
+<fieldset>
+<dt>
+  <form>
+    <dl>
+      <label for="email">Електронна адреса(Email):</label>
+      <input type="email" required autocomplete="off" placeholder="griha@gmail.com" id="email" name="email">
+    </dl>
+  </form>
+  <form>
+    <dl>
+      <label>Опис:</label>
+      <input type="text" pattern="[a-z]{1,15}" placeholder="i like apple">
+    </dl>
+  </form>
+  <form>
+    <dl>
+      <label>Пароль:</label>
+      <input type="password" placeholder="1234">
+    </dl>
+  </form>
+  <form>
+    <dl>
+      <label>Назва</label>
+      <textarea spellcheck="false"></textarea>
+    </dl>
+  </form>
+  <form>
+    <dl>
+      <label>Кількість років:</label>
+      <input type="number" placeholder="7">
+    </dl>
+  </form>
+  <form>
+    <dl>
+      <label for="руль">Тут ваші навички:</label>
+      <input list="Водій" id="руль" name="руль" placeholder="Водій мотоцикла" />
+
+      <datalist id="Водій">
+        <option value="Водій автобуса">
+        <option value="Водій мотоцикла">
+        <option value="Водій хелікоптера">
+        <option value="Водій лодки">
+      </datalist>
+    </dl>
+    <form>
+      <dl>
+        <fieldset>
+          <legend>Додаткова інформація:</legend>
+          <label for="fname" style="color: #ccff99">Призвище:</label>
+          <input type="text" id="fname" name="fname"><br><br>
+          <label for="lname" style="color: #ccff99">Ім'я:</label>
+          <input type="text" id="lname" name="lname"><br><br>
+          <label for="email1" style="color: #ccff99">Резервний еmail:</label>
+          <input type="email1" id="email1" name="email1"><br><br>
+          <label for="birthday" style="color: #ccff99">День, місяць і рік народження:</label>
+          <input type="date" id="birthday" name="birthday"><br><br>
+
+        </fieldset>
+      </dl>
+    </form>
+  </form>
+  <form>
+    <dl>
+      <label for="cars">Виберіть на яку машину ви збираєте:</label>
+      <select  name="cars" id="cars">
+        <optgroup label="Шведський автомобіль">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="Німецький автомобіль">
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </optgroup>
+      </select>
+    </dl>
+    <form>
+      <dl>
+        <label for="points">Оцініть покупку авто:</label>
+        <input type="range" id="points" name="points" min="0" max="7">
+      </dl>
+    </form>
+    <form>
+      <dl>
+        <label for="file">Завантаження інформації:</label>
+        <progress id="file" value="79" max="100"> 79% </progress>
+      </dl>
+    </form>
+    <form>
+      <dl>
+        <button class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button>
+      </dl>
+    </form>
+    <form>
+      <dl>
+        <input type="submit" value="Відправити">
+      </dl>
+    </form>
+
+  </form>
+</dt>
+</fieldset>
+</body>
+</html>

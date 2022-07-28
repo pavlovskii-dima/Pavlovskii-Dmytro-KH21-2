@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style1.css">
+  <meta charset="UTF-8">
+  <title>Частина 3</title>
+  <style>
+    h1 > gj {
+      color: yellow
+    }
+
+    h3 + p {
+      color: pink
+    }
+  </style>
+</head>
+<body>
+<h1>
+  <gj>filter</gj>
+</h1>
+<div class="dop">
+  <p>Метод arr.filter(callback[, thisArg]) используется для фильтрации
+    массива через функцию.</p></div>
+<div class="dop1">
+  <p>Он создаёт новый массив, в который войдут только те элементы arr,
+    для которых вызов callback(item, i, arr)возвратит true.</p></div>
+
+<h3> Например:</h3>
+<p><code>
+  var positiveArr = arr.filter(function(number) {
+  return number > 0;
+  });
+</code></p>
+<p><code> alert( positiveArr ); // 1,2,3 </code></p>
+</body>
+</html>
